@@ -17,7 +17,7 @@ def user_interface() -> None:
     print("Enter number of outputs, between 1 and 4")    
     number_of_outputs = _handle_outputlist(0,4)
     
-    Print('Enter steps, latlong,totaldistance, or totaltime. Return after each input')
+    print('Enter steps, latlong,totaldistance, or totaltime. Return after each input')
     output_list = _handle_print_input(number_of_outputs)
     
     data=mapquesturl.get_result(mapquesturl.mapquest_search_url(start,stop_list))
