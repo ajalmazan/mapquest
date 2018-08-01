@@ -32,7 +32,7 @@ class LatLong:
                 lng = str('{:.2f}'.format(lng))+'E'
             else:
                 lng = str('{:.2f}'.format(abs(lng)))+'W'
-            print(lat, long)
+            print(lat, lng)
  
 def run_outputs(outputs:['output'], data):
     """Print output for each element in list"""
